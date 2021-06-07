@@ -1,0 +1,18 @@
+[tool.poetry]
+name = ""
+version = "1.0.0"
+description = ""
+authors = ["Jeremias Pettinen <hi@jeremi.as>"]
+license = "ISC"
+readme = "README.md"
+repository = "https://github.com/pettinen/project"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.scripts]
+script-name = "package:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
